@@ -162,14 +162,15 @@ app.delete("/register/:id",async(req,res)=>{
     }
 });
 
-app.listen(5555,async()=>{
+app.listen(5550,async()=>{
 try{
  await connect()
 
 }
 catch(err){
      console.log("err");
+     
 }
 
-    console.log("Listining port 5555");
+    console.log("Listining port 5550");
 })
